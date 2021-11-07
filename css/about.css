@@ -1,0 +1,39 @@
+
+
+
+main {
+    text-align: center;
+}
+
+.about {
+    width: 70vw;
+    margin:  15vh auto;
+    padding: 2rem;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: var(--secondary-color);
+}
+
+.about-header {
+    margin: 26px 0;
+    font-size: var(--header-size);
+    opacity: 0.6;
+}
+
+.about-content {
+    display: flex;
+
+}
+
+.my-image {
+    border-radius: 13px;
+    height: 35vh;
+    width: auto;
+}
+
+.about-text {
+    font-size: 2rem;
+    line-height: 1.6em;
+    padding: 0px 15px 15px 15px;
+    text-align: left;
+}

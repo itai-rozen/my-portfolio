@@ -1,0 +1,105 @@
+
+
+
+.projects h1 {
+    font-size: var(--header-size);
+    opacity: 0.6;
+}
+
+.tilted {
+    display: inline-block;
+    animation: tilt 6s infinite;
+}
+
+.delayed {
+    animation-delay: 1s;
+}
+
+
+
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.project-container  {
+    box-shadow: none;
+    height: 40vh;
+    border-radius: 13px;
+    width: 25vw;
+    margin: 2rem;
+    opacity: 0.8;
+
+}
+
+.project-header {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.project-header::before,
+.project-header::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 0;
+    background-color: #000;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+.project-header::before {
+    left: 0;
+}
+.project-header::after {
+    right: 0;
+}
+
+
+
+.project-image-container  {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    filter: blur(4px) grayscale(1);
+    /* transition: .3s; */
+}
+
+.image-1 {
+    background: url('./../assets/images/project-1.png') no-repeat center center/cover;
+}
+
+.image-2 {
+    
+    background: url('./../assets/images/coming-soon.jpg') no-repeat center center/cover;
+}
+
+.project-container:hover {
+    opacity: 1;
+}
+
+.project-container:hover .project-header::before,
+.project-container:hover .project-header::after {
+    height: 30px;
+    box-shadow: 5px 26px 19px 4px rgba(0, 0, 0, 0.6);
+}
+
+.project-container:hover .project-image-container {
+    box-shadow: 5px 26px 19px 4px rgba(0, 0, 0, 0.6);
+    filter: blur(0) grayscale(0);
+}
+
+@keyframes tilt {
+    0% {transform: rotate(0);}
+    10%,30% {transform: rotate(6deg);}
+    20%,40% {transform: rotate(-6deg);}
+    45% {transform: rotate(0);}
+
+}
+

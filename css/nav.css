@@ -1,0 +1,42 @@
+
+.navbar {
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    height: 15vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar .nav-list {
+    display: flex;
+}
+
+
+
+.navbar * {
+    margin: 1rem 2rem;
+}
+.navbar li a {
+    color: var(--text-color);
+}
+
+.navbar li {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.navbar li:hover {
+    text-shadow: 1px 5px 19px #ffeffe;
+    color: var(--text-color);
+} 
+
+
+.navbar .hamburger-wrapper,
+.navbar .hamburger-menu {
+    display: none;
+}

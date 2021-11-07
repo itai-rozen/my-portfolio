@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itai Rozen | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <link rel="stylesheet" media="screen and (max-width:1150px)" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/hamburger.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header>
+            <div class="header-text-container">
+                <h1 class="top-text">Lets build</h1>
+                <h1 class="bottom-text">Amazing things together.</h1>
+            </div>
+            <div class="video-container">
+                <video class="video" autoplay muted loop src="./assets/videos/moon.mp4" type="video/mp4"></video>
+            </div>
+
+        </header>
+
+        <nav class="navbar">
+            <input id="check" class="hamburger-menu" type="checkbox" />
+            <label for="check" class="hamburger-wrapper">
+                <div class="hamburger-line"></div>
+            </label>
+            <ul class="nav-list">
+                <li><a href="#about"> About</a></li>
+                <li><a href="#projects"> Projects</a></li>
+                <li><a href="#contact"> Contact</a></li>
+            </ul>
+        </nav>
+
+        <main id="about" class="about">
+            <h2 class="about-header">A little bit about me..</h2>
+            <div class="about-content">
+
+                <p class="about-text">
+                    I live in Mitzpe-ramon, love the desert & the wind. Love science & programming.
+                    In the past few years i've worked as a pharmacist, but coding never stopped being a hobby.
+                    Now my old passion became my new profession. <br /> Let me help your passion come to life by
+                    creating
+                    your site by your standarts. I wont let you compromise for less. <br /> Lets start tomorrow.
+                    heck, <strong> lets start today! </strong>
+
+                    <!--  align to corner   -->
+
+                </p>
+                <img class="my-image" width="200" src="./assets/images/me.jpg" alt="picture of myself" srcset="">
+            </div>
+
+
+
+        </main  >
+        <section id="projects" class="projects about">
+            <h1 class="projects-header"> <span class="tilted delayed">H</span>ere are some of my <span class="tilted">P</span>rojects   </h1>
+            <div class="projects-container">
+                <div class="project-container ">
+                    <h3 class="project-header">Tesla Mockup</h3>
+                    <a href="https://tesla-mockup.netlify.app/" target="_blank">
+                        <div class="project-image-container image-1"></div>
+                    </a>
+                </div>
+                <div class="project-container ">
+                    <h3 class="project-header">coming soon</h3>
+                        <a href="#">
+                            <div class="project-image-container image-2"></div>
+                        </a>
+                </div>
+                <div class="project-container ">
+                    <h3 class="project-header">coming soon</h3>
+                        <a href="#">
+                            <div class="project-image-container image-2"></div>
+                        </a>
+                </div>
+                <div class="project-container ">
+                    <h3 class="project-header">coming soon</h3>
+                        <a href="#">
+                            <div class="project-image-container image-2"></div>
+                        </a>
+                </div>
+                <div class="project-container ">
+                    <h3 class="project-header">coming soon</h3>
+                        <a href="#">
+                            <div class="project-image-container image-2"></div>
+                        </a>
+                </div>
+
+
+            </div>
+        </section>
+        <div id="contact" class="card contact">
+            <!-- add contact form -->
+            <ul class="social-links">
+                <li><a target="_blank" href="http://www.linkedin.com/in/itai-rozen"><i
+                            class="fab fa-linkedin fa-4x"></i></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/itai.rozen/"><i
+                            class="fab fa-facebook fa-4x"></i></a></li>
+                <li><a href="mailto: itai.rozen@mail.huji.ac.il"><i class="far fa-envelope fa-4x"></i></a></li>
+            </ul>
+            <form>
+                <label for="name">Name</label>
+                <input autocomplete="off" id="name" type="text">
+                <label for="email">Email</label>
+                <input autocomplete="off" type="email" name="email" id="email">
+                <input type="submit" value="Hit it!">
+            </form>
+        </div>
+        <footer>All rights reserved to ME &copy;</footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/5517ce3426.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

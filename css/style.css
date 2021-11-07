@@ -1,0 +1,45 @@
+
+:root {
+    --primary-text: #001114;
+    --light-text: #FFEBC6;
+    --text-color: #F9C784;
+    --secondary-color: #7B7F7D; /* mountain video */
+    --header-size : 3rem;
+    --mobile-header-size: 1.5rem;
+    
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+    transition: .3s;
+}
+
+*:hover {transition: .3s;}
+*:focus {transition: .3s;}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+    background-color: var(--secondary-color);
+    color: var(--primary-text);
+}
+
+
+
+footer {
+    margin: 50px;
+}
+
+
