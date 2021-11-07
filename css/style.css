@@ -18,6 +18,9 @@
 
 *:hover {transition: .3s;}
 *:focus {transition: .3s;}
+html {
+    scroll-behavior: smooth;
+}
 
 li {
     list-style: none;
@@ -34,6 +37,8 @@ body {
     overflow-x: hidden;
     background-color: var(--secondary-color);
     color: var(--primary-text);
+    scroll-snap-type: y mandatory;
+
 }
 
 
