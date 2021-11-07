@@ -46,6 +46,7 @@ input:focus {
 
 }
 
+
 input[type=submit] {
     font-size: 1.5rem;
     cursor: pointer;
