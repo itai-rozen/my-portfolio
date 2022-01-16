@@ -5,14 +5,14 @@
     height: auto;
     background-color: rgba(255, 255, 255, 0.5);
     justify-content: unset;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .top-text,
 .bottom-text {
     margin: 0;
     margin-left: 1rem;
-    color: var(--primary-text);
+    color: var(--secondary-color);
     font-weight: bold;
     opacity: 1;   
 }
@@ -33,4 +33,30 @@
     height: 100vh;
     transform: scale(3.2);
 }
+
+.project-container {
+    opacity: 1;
+}
+
+.project-container .project-header::before,
+.project-container .project-header::after {
+    height: 30px;
+    box-shadow: 5px 26px 19px 4px rgba(0, 0, 0, 0.6);
+}
+
+.project-container .project-image-container {
+    box-shadow: 5px 26px 19px 4px rgba(0, 0, 0, 0.6);
+    filter: blur(0) grayscale(0);
+}
+
+.project-container .project-header {
+    color: var(--text-color);
+}
+
+
+.project-container .description, 
+.project-container .tech-list {
+    opacity: 1;
+}
+
 

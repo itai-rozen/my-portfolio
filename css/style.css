@@ -1,9 +1,9 @@
 
 :root {
-    --primary-text: #001114;
-    --light-text: #FFEBC6;
+    --primary-text: #fefae0;
+    --light-text: rgb(254, 250, 224);
     --text-color: #F9C784;
-    --secondary-color: #7B7F7D; /* mountain video */
+    --secondary-color: #001d3d; /* mountain video */
     --header-size : 3rem;
     --mobile-header-size: 1.5rem;
     

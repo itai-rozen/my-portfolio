@@ -125,6 +125,12 @@
 }
 
 
+.project-container:hover .description, 
+.project-container:hover .tech-list {
+    opacity: 1;
+}
+
+
 .description {
     opacity: 0;
     margin-top: 20px;
@@ -142,10 +148,6 @@
     margin: 0 5px;
 }
 
-.project-container:hover .description, 
-.project-container:hover .tech-list {
-    opacity: 1;
-}
 
 @keyframes tilt {
     0% {transform: rotate(0);}

@@ -4,7 +4,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #333;
+    /* background-color: rgba(254, 250, 224, 0.3); */
+    background-color: #4D5F6F;
+    background: linear-gradient(to right,#001d3d,#4D5F6F,#001d3d );
     height: 15vh;
     width: 100vw;
     top: 0;
