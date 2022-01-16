@@ -25,7 +25,7 @@ const renderProjects = () => {
         <ul class="tech-list">
             ${techs.map(tech => `<li class="tech-item">
             ${tech}
-            </li>`)}
+            </li>`).join('')}
         </ul>
     </div>`
     })
