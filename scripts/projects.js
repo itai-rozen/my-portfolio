@@ -3,7 +3,7 @@ const projects = [
     {
         title: 'carKnowledge',
         imageClass: 'image-6',
-        link: 'https://car-me.netlify.app/select',
+        link: 'https://car-me.netlify.app/',
         description: 'Find complaints, recalls, safety ratings & reviews on your next car. withdrawn from api, you can browse hundreds of cars by maker, model & year of manufacture',
         techs: ['<i class="fab fa-react fa-3x"></i>','<i class="fab fa-js-square fa-3x"></i>','<i class="fab fa-html5 fa-3x"></i>','<i class="fab fa-css3-alt fa-3x"></i>']
     },
