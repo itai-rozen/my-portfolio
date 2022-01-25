@@ -3,6 +3,7 @@ import projects from "./projects.js"
 const init = () => {
     renderProjects()
     scrollPage()
+    addHamburgetMenuEvents()
 }
 
 const scrollPage = () => {
@@ -32,7 +33,14 @@ const renderProjects = () => {
     projectsContainer.innerHTML = projectsHtml.join('')
 }
 
-
+const addHamburgetMenuEvents = () => {
+    const navItems = document.querySelectorAll('.nav-item')
+    navItems.forEach(item => {
+        item.addEventListener('click', () => {
+            document.querySelector('.hamburger-menu').checked = false
+        })
+    })
+}
 
 window.addEventListener('load', init)
 

@@ -59,4 +59,8 @@
     opacity: 1;
 }
 
+.social-links li a {
+    color: var(--text-color)
+}
+
 

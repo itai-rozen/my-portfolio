@@ -69,7 +69,7 @@
     padding: 0;
 }
 .nav-list li {
-    margin: 5%;
+    margin: 2%;
 }
 .nav-list li a {
     border-bottom:2px solid var(--light-text) ;
@@ -106,5 +106,15 @@ left: 0;
 }
 .hamburger-menu:checked + .hamburger-wrapper > .hamburger-line::before {
     transform: rotate(-45deg);
+}
+
+li.my-name {
+    position: unset;
+    left: unset;
+    font-size: 2rem ;
+    cursor: unset;
+    font-weight: bold;
+    font-family: 'Luxurious Roman', cursive;
+    letter-spacing: 1.5px;
 }
 
