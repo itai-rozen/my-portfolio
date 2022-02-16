@@ -104,6 +104,9 @@
 .image-10 {  
     background: url('./../assets/images/project-10.png') no-repeat center center/cover;
 }
+.image-11 {
+    background: url('./../assets/images/project-11.png') no-repeat center center/cover;
+}
 
 .project-container:hover {
     opacity: 1;

@@ -8,6 +8,13 @@ const projects = [
         techs: ['<i class="fab fa-react fa-3x"></i>','<i class="fab fa-js-square fa-3x"></i>','<i class="fab fa-html5 fa-3x"></i>','<i class="fab fa-css3-alt fa-3x"></i>']
     },
     {
+        title: 'MedVisor',
+        imageClass: 'image-11',
+        link: 'https://ir-medvisor.herokuapp.com/',
+        description: 'medical organizer which helps you not only to get reminders on which meds you need to intake, but also give you information on the medicine and let you check drug interactions. data is scraped from the ministry of health\'s database. reminder via mail is currently off.',
+        techs: ['<i class="fab fa-react fa-3x"></i>','<i class="fab fa-js-square fa-3x"></i>','<i class="fab fa-html5 fa-3x"></i>','<i class="fab fa-css3-alt fa-3x"></i>','<i class="fab fa-node fa-3x"></i>']
+    },
+    {
         title: 'Hebrew Calendar',
         imageClass: 'image-9',
         link: 'https://heb-calendar.herokuapp.com/#/',
