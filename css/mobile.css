@@ -29,10 +29,13 @@
 
 .project-container {
     width: 90%;
+    min-height: 100vh;
+
 }
 
 .project-image-container {
     filter: unset;
+    height: 40%;
 }
 
 #contact  {
