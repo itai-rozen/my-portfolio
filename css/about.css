@@ -7,8 +7,8 @@ main {
 
 .about {
     width: 90vw;
-    margin:  15vh auto;
-    padding: 2rem;
+    margin:  auto;
+    padding: 1rem;
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
     background-color: var(--secondary-color);

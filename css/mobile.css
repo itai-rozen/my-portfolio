@@ -2,7 +2,7 @@
 
 .about {
     width: 100vw;
-    margin: 1vh 0;
+    margin: 10vh 0;
 }
 
 .about-header {
@@ -30,7 +30,6 @@
 .project-container {
     width: 90%;
     min-height: 100vh;
-
 }
 
 .project-image-container {

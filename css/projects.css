@@ -58,8 +58,6 @@
     right: 0;
 }
 
-
-
 .project-image-container  {
     width: 100%;
     margin: 0;
@@ -154,7 +152,6 @@
     0% {transform: rotate(0);}
     10%,30% {transform: rotate(6deg);}
     20%,40% {transform: rotate(-6deg);}
-    45% {transform: rotate(0);}
-
+    45% {transform: rotate(0);} 
 }
 
