@@ -1,33 +1,33 @@
 
 const projects = [
     {
-        title: 'carKnowledge',
-        imageClass: 'image-6',
-        link: 'https://car-me.netlify.app/',
-        description: 'Find complaints, recalls, safety ratings & reviews on your next car. withdrawn from api, you can browse hundreds of cars by maker, model & year of manufacture',
-        techs: ['<i class="fab fa-react fa-3x"></i>','<i class="fab fa-js-square fa-3x"></i>','<i class="fab fa-html5 fa-3x"></i>','<i class="fab fa-css3-alt fa-3x"></i>']
-    },
-    {
-        title: 'MedVisor',
-        imageClass: 'image-11',
-        link: 'https://ir-medvisor.herokuapp.com/',
-        description: 'medical organizer which can remind you which meds you need to take, and also gives you information on the medicine and lets you check drug interactions. data is scraped from the ministry of health\'s database. reminder via mail is currently off.',
-        techs: ['<i class="fab fa-react fa-3x"></i>','<i class="fab fa-js-square fa-3x"></i>','<i class="fab fa-html5 fa-3x"></i>','<i class="fab fa-css3-alt fa-3x"></i>','<i class="fab fa-node fa-3x"></i>']
-    },
-    {
         title: 'Hebrew Calendar',
         imageClass: 'image-9',
-        link: 'https://heb-calendar.herokuapp.com/#/',
+        link: 'https://heb-calendar.onrender.com',
         description: 'hebrew\Gregorian calendar including jewish holidays, Shabbat candle lighting & Parashat Shavu\'a. also features annual reminders for hebrew & Gregorian dates',
         techs: ['<i class="fab fa-vuejs fa-3x"></i>','<i class="fab fa-js-square fa-3x"></i>','<i class="fab fa-html5 fa-3x"></i>','<i class="fab fa-css3-alt fa-3x"></i>','<i class="fab fa-node fa-3x"></i>']
     },
     {
         title: 'Beat Maker',
         imageClass: 'image-10',
-        link: 'https://itai-beatmaker.herokuapp.com/',
+        link: 'https://beatmaker.onrender.com',
         description: 'compose your own beat using my beatmaker! with a variety of instruments & ranging tempo. feel free to save compositions you feel proud of',
         techs: ['<i class="fab fa-react fa-3x"></i>','<i class="fab fa-js-square fa-3x"></i>','<i class="fab fa-html5 fa-3x"></i>','<i class="fab fa-css3-alt fa-3x"></i>','<i class="fab fa-node fa-3x"></i>']
     },
+    {
+      title: 'MedVisor',
+      imageClass: 'image-11',
+      link: 'https://medvisor.onrender.com',
+      description: 'medical organizer which can remind you which meds you need to take, and also gives you information on the medicine and lets you check drug interactions. data is scraped from the ministry of health\'s database. reminder via mail is currently off.',
+      techs: ['<i class="fab fa-react fa-3x"></i>','<i class="fab fa-js-square fa-3x"></i>','<i class="fab fa-html5 fa-3x"></i>','<i class="fab fa-css3-alt fa-3x"></i>','<i class="fab fa-node fa-3x"></i>']
+    },
+    {
+      title: 'carKnowledge',
+      imageClass: 'image-6',
+      link: 'https://car-me.netlify.app/',
+      description: 'Find complaints, recalls, safety ratings & reviews on your next car. withdrawn from api, you can browse hundreds of cars by maker, model & year of manufacture',
+      techs: ['<i class="fab fa-react fa-3x"></i>','<i class="fab fa-js-square fa-3x"></i>','<i class="fab fa-html5 fa-3x"></i>','<i class="fab fa-css3-alt fa-3x"></i>']
+  },
     {
         title: 'Covid Tracker',
         imageClass: 'image-4',
@@ -77,7 +77,6 @@ const projects = [
         description: 'randomly generated minesweeper, with 3 difficulty levels for all of you brainiacs',
         techs: ['<i class="fab fa-js-square fa-3x"></i>','<i class="fab fa-html5 fa-3x"></i>','<i class="fab fa-css3-alt fa-3x"></i>']
     },
-
 ]
 
 export default projects
