@@ -2,14 +2,7 @@ import projects from "./projects.js"
 
 const init = () => {
     renderProjects()
-    scrollPage()
     addHamburgetMenuEvents()
-}
-
-const scrollPage = () => {
-    setTimeout(() => {
-        document.getElementById('about').scrollIntoView({behavior:"smooth", block:'end'})
-    },2000)
 }
 
 const renderProjects = () => {
