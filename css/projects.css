@@ -65,7 +65,6 @@
     border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
     filter: blur(4px) grayscale(1);
-    /* transition: .3s; */
 }
 
 .image-1 {
