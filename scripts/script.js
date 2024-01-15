@@ -2,7 +2,7 @@ import projects from "./projects.js"
 
 const init = () => {
     renderProjects()
-    addHamburgetMenuEvents()
+    addHamburgerMenuEvents()
 }
 
 const renderProjects = () => {
@@ -26,7 +26,7 @@ const renderProjects = () => {
     projectsContainer.innerHTML = projectsHtml.join('')
 }
 
-const addHamburgetMenuEvents = () => {
+const addHamburgerMenuEvents = () => {
     const navItems = document.querySelectorAll('.nav-item')
     navItems.forEach(item => {
         item.addEventListener('click', () => {
