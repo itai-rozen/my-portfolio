@@ -57,6 +57,13 @@ const projects = [
         techs: ['<i class="fab fa-html5 fa-3x"></i>','<i class="fab fa-css3-alt fa-3x"></i>']
     },
     {
+      title: 'Amazon Mockup',
+      imageClass: 'image-12',
+      link: 'https://mockup-amazon.netlify.app/',
+      description: 'A pixel-perfect replica of amazon product page',
+      techs: ['<i class="fab fa-html5 fa-3x"></i>','<i class="fab fa-css3-alt fa-3x"></i>']
+  },
+    {
         title: '2d Minecraft',
         imageClass: 'image-3',
         link: 'https://itai-rozen-minecraft.netlify.app/',
