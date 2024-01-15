@@ -10,18 +10,18 @@ const renderProjects = () => {
     const projectsHtml = projects.map(project => {
         const { title,imageClass,link,description,techs } = project
         return `
-        <div class="project-container ">
-        <h3 class="project-header">${title}</h3>
-        <a href=${link} target="_blank">
-            <div class="project-image-container ${imageClass}"></div>
-        </a>
-        <p class="description">${description}</p>
-        <ul class="tech-list">
-            ${techs.map(tech => `<li class="tech-item">
-            ${tech}
-            </li>`).join('')}
-        </ul>
-    </div>`
+        <div class="project-container">
+          <h3 class="project-header">${title}</h3>
+          <a href=${link} target="_blank">
+              <div class="project-image-container ${imageClass}"></div>
+          </a>
+          <p class="description">${description}</p>
+          <ul class="tech-list">
+              ${techs.map(tech => `<li class="tech-item">
+              ${tech}
+              </li>`).join('')}
+          </ul>
+        </div>`
     })
     projectsContainer.innerHTML = projectsHtml.join('')
 }
