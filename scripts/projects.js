@@ -84,6 +84,13 @@ const projects = [
     description: 'randomly generated minesweeper, with 3 difficulty levels for all of you brainiacs',
     techs: ['<i class="fab fa-js-square fa-3x"></i>', '<i class="fab fa-html5 fa-3x"></i>', '<i class="fab fa-css3-alt fa-3x"></i>']
   },
+  {
+    title: 'Princess memory game',
+    imageClass: 'image-13',
+    link: 'https://main--rozen-memory-game.netlify.app/',
+    description: 'small & simple memory card game with all your favorite disney princesses. Built using <strong>React Native</strong> over <strong>TypeScript</strong>',
+    techs: ['<i class="fab fa-react fa-3x"></i>','<i class="fab fa-js-square fa-3x"></i>', '<i class="fab fa-css3-alt fa-3x"></i>']
+  },
 ]
 
 export default projects
