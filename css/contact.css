@@ -45,11 +45,12 @@ input:focus {
 
 
 .contact form .submit {
-    font-size: 1.5rem;
-    line-height: 1.1;
-    padding: 5px 10px;
+    font-size: 1.3rem;
+    line-height: 0.5;
+    text-align: center;
+    padding: 10px 25px;
     cursor: pointer;
-    width: 30%;
+    width: 45%;
     font-weight: 300;
 }
 .contact form .submit:hover {
