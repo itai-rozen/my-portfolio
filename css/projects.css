@@ -94,6 +94,14 @@
     font-size: 1.5rem;
 }
 
+a.description {
+  color: var(--text-color);
+  text-decoration: underline;
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+}
+
 .tech-list {
     opacity: 0;
     margin: 15px auto;
@@ -102,6 +110,11 @@
 }
 
 .tech-item { margin: 0 5px; }
+
+.project-link {
+  display: block;
+  color: var(--text-color);
+}
 
 @keyframes tilt {
     0% {transform: rotate(0);}
